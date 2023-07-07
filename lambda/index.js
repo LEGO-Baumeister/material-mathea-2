@@ -23,6 +23,12 @@ const LaunchRequestHandler = {
 };
 
 // TODO: adjust this function
+/* *
+ * put the csv-config or the json-config into the documents folder
+ * 
+ *
+ *
+ * */
 const GetMaterialLocationIntentHandler = {
   canHandle(handlerInput) {
     return (
