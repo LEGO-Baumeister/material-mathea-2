@@ -22,6 +22,7 @@ const LaunchRequestHandler = {
   },
 };
 
+// TODO: adjust this function
 const GetMaterialLocationIntentHandler = {
   canHandle(handlerInput) {
     return (
