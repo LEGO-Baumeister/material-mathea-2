@@ -1,12 +1,12 @@
 {
-  "name": "hello-world",
-  "version": "1.2.0",
-  "description": "alexa utility for quickly building skills",
+  "name": "material-mathea-2",
+  "version": "1.1.0",
+  "description": "alexa utility for locating the material of the altar boys' summer camp 2023 in the boxes.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Amazon Alexa",
+  "author": "Lukas Breuer",
   "license": "Apache License",
   "dependencies": {
     "ask-sdk-core": "^2.7.0",
