@@ -40,7 +40,6 @@ const GetMaterialLocationIntentHandler = {
   handle(handlerInput) {
     var speakOutput = "";
     var result;
-    var loc;
 
     var materialName =
       handlerInput.requestEnvelope.request.intent.slots.material.value;
@@ -50,31 +49,35 @@ const GetMaterialLocationIntentHandler = {
 
     speakOutput = `Das Material mit dem Namen ${materialName} hat die ID ${materialID}`;
 
-    var locations = require("./documents/materialConfig.json");
+    var locations = require("./documents/Material-config.json");
     console.log(locations);
 
-    //Loop through all Materials and check if any ID equals the requested on
+    //Loop through all materials and check if any id equals the requested one
     for (var i = 0; i < locations.length; i++) {
-      if (locations[i].ID == materialID) {
+      if (locations[i].id == materialID) {
         result = locations[i];
       }
     }
 
-    loc = result.Location;
-    console.log("loc_ort:", loc);
+    //store data from requested material in these variables and print them to the console
+    var box = result.box;
+    var location = result.location;
+    console.log("box:", box);
+    console.log("location:", location);
     
-    if (loc === -1) {
-        speakOutput = `Das Material mit dem Namen ${materialName} fliegt irgendwo rum.`;
-    } else if (loc === 3) {
-        speakOutput = `Das Material mit dem Namen ${materialName} befindet sich, im Leiterraum, in Kiste Nummer ${loc}`;
-    }  else if (loc >= 1 && loc  <= 8) {
-        speakOutput = `Das Material mit dem Namen ${materialName} befindet sich, im Skikeller, in Kiste Nummer ${loc}`;
-    } else if (loc >= 9 && loc <= 15) {
-        speakOutput = `Das Material mit dem Namen ${materialName} befindet sich, im Disco Stadel, in Kiste Nummer ${loc}`;
-    } else if (loc >= 16 && loc <= 20) {
-        speakOutput = `Das Material mit dem Namen ${materialName} befindet sich im Keller, in Kiste Nummer ${loc}`;
+    //check if the string "location" is not empty / not null
+    if (location) {
+        if (box >= 0) {
+            speakOutput = `Das Material ${materialName} befindet sich, im ${location}, in Kiste Nummer ${box}`; //location and box number valid
+        } else {
+            speakOutput = `Das Material ${materialName} befindet sich, im ${location}. Ihm ist keine Kiste zugeordnet`; //location, but no valid box number
+        }
     } else {
-      speakOutput = `Das Material mit dem Namen ${materialName} befindet sich in Kiste Nummer ${loc}`;
+        if (box >= 0) {
+            speakOutput = `Dam Material ${materialName} ist kein Raum zugewiesen, aber die Kiste Nummer ${box}`; //invalid locatino, but valid box number
+        } else {
+            speakOutput = `Das Material ${materialName} fliegt irgendwo rum. Es hat keine Kiste, keinen Raum, keine Freunde.`; //invalid location and invalid box number
+        }
     }
     
     //Save speakOutput to Attributes to recall it later
