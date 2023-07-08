@@ -1,0 +1,728 @@
+[
+  {
+    "id": 1,
+    "material": "Bastelsachen",
+    "box": 0,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 2,
+    "material": "Krepp Papier",
+    "box": 0,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 3,
+    "material": "Stifte",
+    "box": 1,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 4,
+    "material": "Pinsel",
+    "box": 1,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 5,
+    "material": "Wassermalfarben",
+    "box": 1,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 6,
+    "material": "Alleskleber",
+    "box": 1,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 7,
+    "material": "Kleister",
+    "box": 1,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 8,
+    "material": "Wachsmalstifte",
+    "box": 1,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 9,
+    "material": "Luftballons",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 10,
+    "material": "Spielfiguren",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 11,
+    "material": "Baumwollwatte",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 12,
+    "material": "Wattepads",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 13,
+    "material": "Zahnstocher",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 14,
+    "material": "Straßenmalkreide",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 15,
+    "material": "Schaschlickspieße",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 16,
+    "material": "Wäscheklammern",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 17,
+    "material": "Geschenkband",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 18,
+    "material": "Ventile",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 19,
+    "material": "Schlauch",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 20,
+    "material": "Gummibänder",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 21,
+    "material": "Draht",
+    "box": 2,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 22,
+    "material": "Blätter bunt",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 23,
+    "material": "Blätter weiß",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 24,
+    "material": "Eddings",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 25,
+    "material": "Briefumschläge",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 26,
+    "material": "Scheren",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 27,
+    "material": "Radierer",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 28,
+    "material": "Reiszwecke",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 29,
+    "material": "Tesa",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 30,
+    "material": "Pritstift",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 31,
+    "material": "Klebeband",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 32,
+    "material": "Post-its",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 33,
+    "material": "Schminke",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 34,
+    "material": "Tatto",
+    "box": 3,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 35,
+    "material": "Acrylfarben",
+    "box": 4,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 36,
+    "material": "Fingermalfarben",
+    "box": 4,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 37,
+    "material": "Sprayfarben",
+    "box": 4,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 38,
+    "material": "Malbecher",
+    "box": 4,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 39,
+    "material": "Lötkolben",
+    "box": 5,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 40,
+    "material": "Textilfarben",
+    "box": 5,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 41,
+    "material": "Frühstücksbrettchen",
+    "box": 5,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 42,
+    "material": "Heißklebepistolen",
+    "box": 5,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 43,
+    "material": "Teelichter",
+    "box": 6,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 44,
+    "material": "Feuerzeug",
+    "box": 6,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 45,
+    "material": "Fackel",
+    "box": 6,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 46,
+    "material": "Wunderkerzen",
+    "box": 6,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 47,
+    "material": "Kerzen",
+    "box": 6,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 48,
+    "material": "Kleine Becher",
+    "box": 6,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 49,
+    "material": "Streichhölzer",
+    "box": 6,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 50,
+    "material": "Taschenlampe",
+    "box": 6,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 51,
+    "material": "Batterien",
+    "box": 6,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 52,
+    "material": "Schmucksteine",
+    "box": 7,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 53,
+    "material": "Pailetten",
+    "box": 7,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 54,
+    "material": "Glitzer",
+    "box": 7,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 55,
+    "material": "Loom-Bänder",
+    "box": 7,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 56,
+    "material": "Garn",
+    "box": 7,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 57,
+    "material": "Federn",
+    "box": 7,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 58,
+    "material": "Perlen",
+    "box": 7,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 59,
+    "material": "Backpapier",
+    "box": 8,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 60,
+    "material": "Alufolie",
+    "box": 8,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 61,
+    "material": "Brottüten",
+    "box": 8,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 62,
+    "material": "Frischhaltefolie",
+    "box": 8,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 63,
+    "material": "Schwämme",
+    "box": 8,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 64,
+    "material": "Servietten",
+    "box": 8,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 65,
+    "material": "Lappen",
+    "box": 8,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 66,
+    "material": "Ziplockbags",
+    "box": 8,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 67,
+    "material": "Strohälme",
+    "box": 8,
+    "location": "Ski Keller"
+  },
+  {
+    "id": 68,
+    "material": "Stichsäge",
+    "box": 9,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 69,
+    "material": "Winkelschleifer",
+    "box": 9,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 70,
+    "material": "Akkubohrer",
+    "box": 9,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 71,
+    "material": "Tacker",
+    "box": 9,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 72,
+    "material": "Sägen",
+    "box": 10,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 73,
+    "material": "Hämmer",
+    "box": 10,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 74,
+    "material": "Feilen",
+    "box": 10,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 75,
+    "material": "Zange",
+    "box": 10,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 76,
+    "material": "Schraubenzieher",
+    "box": 10,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 77,
+    "material": "Zollstock",
+    "box": 10,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 78,
+    "material": "Holzleim",
+    "box": 10,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 79,
+    "material": "Schmirgelpapier",
+    "box": 10,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 80,
+    "material": "Kabelbinder",
+    "box": 10,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 81,
+    "material": "Schrauben",
+    "box": 11,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 82,
+    "material": "Warnwesten",
+    "box": 12,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 83,
+    "material": "Leibchen",
+    "box": 12,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 84,
+    "material": "Hütchen",
+    "box": 12,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 85,
+    "material": "Fliegenklatschen",
+    "box": 13,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 86,
+    "material": "Springseile",
+    "box": 13,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 87,
+    "material": "Ballpumpen",
+    "box": 13,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 88,
+    "material": "Scheibenschießen",
+    "box": 13,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 89,
+    "material": "Wurf-Fang-Ball",
+    "box": 13,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 90,
+    "material": "Djüdt",
+    "box": 13,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 91,
+    "material": "Schwimmflügel",
+    "box": 14,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 92,
+    "material": "Wasserpistolen",
+    "box": 14,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 93,
+    "material": "Wasserbomben",
+    "box": 14,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 94,
+    "material": "Wasserball",
+    "box": 14,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 95,
+    "material": "Wasserrutsche",
+    "box": 14,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 96,
+    "material": "Tischtennisschläger",
+    "box": 15,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 97,
+    "material": "Tischtennisbälle",
+    "box": 15,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 98,
+    "material": "Tischtennisnetz",
+    "box": 15,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 99,
+    "material": "Tennisbälle",
+    "box": 15,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 100,
+    "material": "Tennisschläger",
+    "box": 15,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 101,
+    "material": "Badmintonschläger",
+    "box": 15,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 102,
+    "material": "Federbälle",
+    "box": 15,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 103,
+    "material": "Beachball",
+    "box": 15,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 104,
+    "material": "Kleider",
+    "box": 16,
+    "location": "Keller"
+  },
+  {
+    "id": 105,
+    "material": "Westen",
+    "box": 17,
+    "location": "Keller"
+  },
+  {
+    "id": 106,
+    "material": "Jacken",
+    "box": 17,
+    "location": "Keller"
+  },
+  {
+    "id": 107,
+    "material": "Umhänge",
+    "box": 17,
+    "location": "Keller"
+  },
+  {
+    "id": 108,
+    "material": "Hosen",
+    "box": 18,
+    "location": "Keller"
+  },
+  {
+    "id": 109,
+    "material": "Röcke",
+    "box": 18,
+    "location": "Keller"
+  },
+  {
+    "id": 110,
+    "material": "Oberteile",
+    "box": 18,
+    "location": "Keller"
+  },
+  {
+    "id": 111,
+    "material": "Verkleidung-Accessoires",
+    "box": 19,
+    "location": "Keller"
+  },
+  {
+    "id": 112,
+    "material": "Kopfbedeckungen",
+    "box": 20,
+    "location": "Keller"
+  },
+  {
+    "id": 113,
+    "material": "Tücher",
+    "box": 21,
+    "location": "Keller"
+  },
+  {
+    "id": 114,
+    "material": "Decken",
+    "box": 21,
+    "location": "Keller"
+  },
+  {
+    "id": 115,
+    "material": "Roter Teppich",
+    "box": 21,
+    "location": "Keller"
+  },
+  {
+    "id": 116,
+    "material": "Großgruppenspiele",
+    "box": 22,
+    "location": "Keller"
+  },
+  {
+    "id": 117,
+    "material": "Kissen",
+    "box": -1,
+    "location": ""
+  },
+  {
+    "id": 118,
+    "material": "Kerzen Hobby Gruppe",
+    "box": -1,
+    "location": ""
+  },
+  {
+    "id": 119,
+    "material": "Blumentöpfe",
+    "box": -1,
+    "location": ""
+  },
+  {
+    "id": 120,
+    "material": "Textil (Stoffe/Farbe)",
+    "box": -1,
+    "location": ""
+  },
+  {
+    "id": 121,
+    "material": "Masken",
+    "box": -1,
+    "location": ""
+  }
+]
