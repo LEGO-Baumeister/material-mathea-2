@@ -22,6 +22,16 @@ const LaunchRequestHandler = {
   },
 };
 
+function slotValue(slot, useId){
+    let value = slot.value;
+    let resolution = (slot.resolutions && slot.resolutions.resolutionsPerAuthority && slot.resolutions.resolutionsPerAuthority.length > 0) ? slot.resolutions.resolutionsPerAuthority[0] : null;
+    if(resolution && resolution.status.code == 'ER_SUCCESS_MATCH'){
+        let resolutionValue = resolution.values[0].value;
+        value = resolutionValue.id && useId ? resolutionValue.id : resolutionValue.name;
+    }
+    return value;
+}
+
 
 /* *
  *
@@ -59,6 +69,7 @@ const GetMaterialLocationIntentHandler = {
     //store data from requested material in these variables and print them to the console
     var box = result.box;
     var location = result.location;
+    materialName = slotValue(this.event.request.intent.slots.material);
     console.log("box:", box);
     console.log("location:", location);
     
