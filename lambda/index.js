@@ -84,6 +84,7 @@ const GetMaterialLocationIntentHandler = {
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
+      .reprompt("Kann ich dir sonst noch weiter helfen?")
       .getResponse();
   },
 };
