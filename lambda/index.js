@@ -52,7 +52,7 @@ const GetMaterialLocationIntentHandler = {
 
     //Loop through all materials and check if any id equals the requested one
     for (var i = 0; i < locations.length; i++) {
-      if (locations[i].id == materialID) {
+      if (locations[i].id == materialID) {  //yes, it shows a warning, but the type conversion is necessary, trust me ._.
         result = locations[i];
       }
     }
@@ -85,11 +85,12 @@ const GetMaterialLocationIntentHandler = {
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
-      .reprompt("Kann ich dir sonst noch weiter helfen?")
+      .reprompt("Kann ich dir sonst noch weiter helfen?") //repromt, to be able to ask for another material; String won't be used: I have no idea why, alexa docs unclear =_=
       .getResponse();
   },
 };
 
+//Repeats last speakOutput from GetMaterialLocationIntentHandler
 const RepeatIntentHandler = {
   canHandle(handlerInput) {
     return (
@@ -106,7 +107,7 @@ const RepeatIntentHandler = {
     const attributes = handlerInput.attributesManager.getSessionAttributes();
     
     if (attributes.lastResult) {
-        speakOutput = "Alles Klar hier die Wiederholung:" + attributes.lastResult;
+        speakOutput = "Ich wiederhole: " + attributes.lastResult;
     }
 
     return handlerInput.responseBuilder
@@ -116,6 +117,7 @@ const RepeatIntentHandler = {
   },
 };
 
+//Replies to thank you
 const ThankYouIntentHandler = {
     canHandle(handlerInput) {
         return (Alexa.getRequestType(handlerInput.requestEnvelope) === "IntentRequest" && Alexa.getIntentName(handlerInput.requestEnvelope) === "ThankYouIntent");
@@ -137,7 +139,7 @@ const HelpIntentHandler = {
   },
   handle(handlerInput) {
     const speakOutput =
-      "Hallo, frage einfach nach einem Material und ich kann dir die Position verraten.";
+      `Frage einfach nach einem Material und ich kann dir die Position verraten. Zum Beispiel: "Wo sind die Stifte?", Oder: "Alexa fram Material Mathea nach Klebeband." `;
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
