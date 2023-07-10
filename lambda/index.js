@@ -24,9 +24,6 @@ const LaunchRequestHandler = {
 
 
 /* *
- * put the csv-config or the json-config into the documents folder
- * 
- *
  *
  * */
 const GetMaterialLocationIntentHandler = {
