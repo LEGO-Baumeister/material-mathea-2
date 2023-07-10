@@ -237,9 +237,7 @@ const ErrorHandler = {
     return true;
   },
   handle(handlerInput, error) {
-    //const speakOutput = `Oh nein! Du hast einen Error ausgelöst! Nicht nur eine Einfache Exception, sondern einen Error. Aktiviere Selbstzerstörung in 3, 2 - nein Spaß. Versuche es einfach noch einmal. Sollte der Fehler weiterhin auftreten, dann kontaktiere meinen Erbauer!`;
-    const speakOutput = `Hamm wir nicht Willst du noch einen Porsche, du Huu renn sohn?`;
-    //const speakOutput = `Hamm wir nicht, willst du stattdessen einen Porsche? Noch so eine Frage und du kriegst Tischdienst!`;
+    const speakOutput = `Oh nein! Du hast einen Error ausgelöst! Versuche eine andere Fragestellung, benutze ein Synonym oder mach Tischdienst du Lappen. Alternativ melde dich beim Erbauer.`;
     console.log(`~~~~ Error handled: ${JSON.stringify(error)}`);
 
     return handlerInput.responseBuilder
