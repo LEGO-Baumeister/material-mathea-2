@@ -23,7 +23,8 @@ const LaunchRequestHandler = {
 };
 
 /* *
- *
+ * GetMaterialLocationIntent triggers if the user asks for the location of an material/object
+ * This handler delivers the location of the asked material/object 
  * */
 const GetMaterialLocationIntentHandler = {
   canHandle(handlerInput) {
@@ -37,12 +38,13 @@ const GetMaterialLocationIntentHandler = {
     var speakOutput = "";
     var result;
 
-    //var materialName = handlerInput.requestEnvelope.request.intent.slots.material.value;
+    //var materialName = handlerInput.requestEnvelope.request.intent.slots.material.value; -> note: old, keep in case new variant does not work as expected, to easily fix
     var materialName = handlerInput.requestEnvelope.request.intent.slots.material.resolutions.resolutionsPerAuthority[0].values[0].value.name;
     var materialID =
       handlerInput.requestEnvelope.request.intent.slots.material.resolutions
         .resolutionsPerAuthority[0].values[0].value.id;
 
+    //temporary speakOutput
     speakOutput = `Das Material mit dem Namen ${materialName} hat die ID ${materialID}`;
 
     var locations = require("./documents/Material-config.json");
@@ -50,7 +52,7 @@ const GetMaterialLocationIntentHandler = {
 
     //Loop through all materials and check if any id equals the requested one
     for (var i = 0; i < locations.length; i++) {
-      if (locations[i].id == materialID) {
+      if (locations[i].id === materialID) {
         result = locations[i];
       }
     }
@@ -204,6 +206,7 @@ const SessionEndedRequestHandler = {
     return handlerInput.responseBuilder.getResponse(); // notice we send an empty response
   },
 };
+
 /* *
  * The intent reflector is used for interaction model testing and debugging.
  * It will simply repeat the intent the user said. You can create custom handlers for your intents
@@ -237,7 +240,7 @@ const ErrorHandler = {
     return true;
   },
   handle(handlerInput, error) {
-    const speakOutput = `Oh nein! Du hast einen Error ausgelöst! Versuche eine andere Fragestellung, benutze ein Synonym oder mach Tischdienst du Lappen. Alternativ melde dich beim Erbauer.`;
+    const speakOutput = `Oh nein! Du hast einen Error ausgelöst! Versuche eine andere Fragestellung, benutze ein Synonym oder mach Tischdienst du Lappen. Alternativ melde dich bei meinem Erbauer.`;
     console.log(`~~~~ Error handled: ${JSON.stringify(error)}`);
 
     return handlerInput.responseBuilder
