@@ -139,7 +139,7 @@ const HelpIntentHandler = {
     },
     handle(handlerInput) {
         const speakOutput =
-            `Frage einfach nach einem Material und ich kann dir die Position verraten. Zum Beispiel: "Wo sind die Stifte?", Oder: "Alexa fram Material Mathea nach Klebeband." `;
+            `Frage einfach nach einem Material und ich kann dir die Position verraten. Zum Beispiel: "Wo sind die Stifte?", Oder: "Alexa frag Material Mathea nach Klebeband." `;
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
