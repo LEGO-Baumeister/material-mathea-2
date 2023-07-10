@@ -84,6 +84,7 @@ const GetMaterialLocationIntentHandler = {
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
+      .repromt(speakOutput)
       .getResponse();
   },
 };
@@ -104,7 +105,7 @@ const RepeatIntentHandler = {
     const attributes = handlerInput.attributesManager.getSessionAttributes();
     
     if (attributes.lastResult) {
-        speakOutput = "Alles Klar hier die Wiederholung" + attributes.lastResult;
+        speakOutput = "Alles Klar hier die Wiederholung:" + attributes.lastResult;
     }
 
     return handlerInput.responseBuilder
