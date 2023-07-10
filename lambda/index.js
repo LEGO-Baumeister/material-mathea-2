@@ -22,16 +22,6 @@ const LaunchRequestHandler = {
   },
 };
 
-const getCanonicalSlot = (slot) => {
-    if (slot.resolutions && slot.resolutions.resolutionsPerAuthority.length) {
-        for (let resolution of slot.resolutions.resolutionsPerAuthority) {
-            if (resolution.status && resolution.status.code === 'ER_SUCCESS_MATCH') {
-                return resolution.values[0].value.name;
-            }
-        }
-    }
-}
-
 /* *
  *
  * */
@@ -47,8 +37,7 @@ const GetMaterialLocationIntentHandler = {
     var speakOutput = "";
     var result;
 
-    var materialName = Alexa.getCanonicalSlot(Alexa.getSlot(handlerInput.requestEnvelope), "materialType");
-      //handlerInput.requestEnvelope.request.intent.slots.material.value;
+    var materialName = handlerInput.requestEnvelope.request.intent.slots.material.value;
     var materialID =
       handlerInput.requestEnvelope.request.intent.slots.material.resolutions
         .resolutionsPerAuthority[0].values[0].value.id;
