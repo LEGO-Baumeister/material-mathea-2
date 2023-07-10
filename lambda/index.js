@@ -52,7 +52,7 @@ const GetMaterialLocationIntentHandler = {
 
     //Loop through all materials and check if any id equals the requested one
     for (var i = 0; i < locations.length; i++) {
-      if (locations[i].id === materialID) {
+      if (locations[i].id == materialID) {
         result = locations[i];
       }
     }
