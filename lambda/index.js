@@ -84,7 +84,6 @@ const GetMaterialLocationIntentHandler = {
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
-      .repromt(speakOutput)
       .getResponse();
   },
 };
