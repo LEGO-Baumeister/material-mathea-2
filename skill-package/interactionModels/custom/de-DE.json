@@ -1054,6 +1054,100 @@
                 "value": "Masken"
               },
               "id": "121"
+            },
+            {
+              "name": {
+                "value": "Loop Bändchen"
+              },
+              "id": "122"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "große Pylonen"
+                ],
+                "value": "große Hütchen"
+              },
+              "id": "123"
+            },
+            {
+              "name": {
+                "value": "Spikeball"
+              },
+              "id": "124"
+            },
+            {
+              "name": {
+                "value": "Twister"
+              },
+              "id": "125"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Luftmatraze"
+                ],
+                "value": "Luftmatratze"
+              },
+              "id": "126"
+            },
+            {
+              "name": {
+                "value": "Luftkissen"
+              },
+              "id": "127"
+            },
+            {
+              "name": {
+                "value": "Luftliege"
+              },
+              "id": "128"
+            },
+            {
+              "name": {
+                "value": "Flaschen"
+              },
+              "id": "129"
+            },
+            {
+              "name": {
+                "synonyms" [
+                  "Wassersprudler",
+                  "Sprudelwasser",
+                  "Sprudelwasser Maschine"
+                ],
+                "value": "Sodastream"
+              },
+              "id": "130"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Karaffen",
+                  "Kanne",
+                  "Karaffe",
+                  "Krug",
+                  "Krüge",
+                  "Amphore"
+                ],
+                "value": "Kannen"
+              },
+              "id": "131"
+            },
+            {
+              "name": {
+                "value": "Becher"
+              },
+              "id": "132"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Sandwichtoaster"
+                ],
+                "value": "Sandwichmaker"
+              },
+              "id": "133"
             }
           ],
           "name": "MaterialType"

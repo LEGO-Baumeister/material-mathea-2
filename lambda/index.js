@@ -1,7 +1,7 @@
 /* *
  * Main file for the "Material Mathea 2.0" Alexa Skill
  * @author Lukas Breuer <lukas.severin.breuer@gmail.com>
- * @version 10.07.2023
+ * @version 21.07.2023
  * */
 const Alexa = require("ask-sdk-core");
 

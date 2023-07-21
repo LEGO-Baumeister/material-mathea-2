@@ -724,5 +724,77 @@
     "material": "Masken",
     "box": -1,
     "location": ""
+  },
+  {
+    "id": 122,
+    "material": "Loop Bändchen",
+    "box": 23,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 123,
+    "material": "Große Hütchen",
+    "box": 23,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 124,
+    "material": "Spikeball",
+    "box": 23,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 125,
+    "material": "Twister",
+    "box": 23,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 126,
+    "material": "Luftmatraze",
+    "box": 24,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 127,
+    "material": "Luftkissen",
+    "box": 24,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 128,
+    "material": "Luftliege",
+    "box": 24,
+    "location": "Disko Stadl"
+  },
+  {
+    "id": 129,
+    "material": "Flaschen",
+    "box": 25,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 130,
+    "material": "Sodastream",
+    "box": 25,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 131,
+    "material": "Kannen",
+    "box": 26,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 132,
+    "material": "Becher",
+    "box": 26,
+    "location": "Leiterraum"
+  },
+  {
+    "id": 133,
+    "material": "Sandwichmaker",
+    "box": 26,
+    "location": "Leiterraum"
   }
 ]
