@@ -1,0 +1,84 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Frage Material Mathea wo sich ein Material befindet.",
+          "examplePhrases": [
+            "Alexa starte Material Mathea.",
+            "Alexa, frag Material Mathea, wo die Stifte sind.",
+            "Alexa frag Material Mathea nach dem Hammer."
+          ],
+          "keywords": [
+            "material",
+            "mathea",
+            "sola",
+            "messdiener",
+            "mondorf",
+            "sommerlager",
+            "materialwart",
+            "organisation",
+            "materiallager"
+          ],
+          "name": "Material Mathea 2.0",
+          "description": "Frage Material Mathea wo sich ein Material befindet, zum Beispiel:\n\"Alexa, frage Material Mathea, wo die Stifte sind.\"\nNun wird Mathea dir eine Antwort geben, mit der Kistennummer, und in welchem Raum die Stifte liegen.\nDu kannst Material Mathea außerdem darum bitten zu wiederholen, was sie als letztes gesagt hat (\"Wie bitte?\").\nUnd natürlich kannst du dich auch für die Hilfe bedanken.",
+          "smallIconUri": "file://assets/images/de-DE_smallIconUri.png",
+          "largeIconUri": "file://assets/images/de-DE_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Wenn Probleme auftreten, zum Beispiel eine Frage nach einem bestimmten Material nicht erkannt wird, ein Material nicht erkannt wird, sich der Skill nicht startet, oder eine falsche Antwort abgegeben wird, dann bitte bei mir melden.\\nAuch bei sonstigen unerwarteten Fehlern oder Verhalten/Antworten des Skills bei mir melden.\\nDie Meldungen bitte so genau wie möglich mit vielen Details, damit ich den Fehler replizieren kann.\\nVielen Dank und viel Erfolg!\\nE-Mail: lukas.severin.breuer@gmail.com\"}",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "AT",
+        "DE",
+        "TH"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:165623623865:function:cca57367-e935-49b2-97ee-958b2b76db02:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:165623623865:function:cca57367-e935-49b2-97ee-958b2b76db02:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:165623623865:function:cca57367-e935-49b2-97ee-958b2b76db02:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:165623623865:function:cca57367-e935-49b2-97ee-958b2b76db02:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "de-DE": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
